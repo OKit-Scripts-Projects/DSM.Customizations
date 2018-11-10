@@ -1,4 +1,4 @@
-# dsm-debian-chroot.spk
+# DSM-debian-chroot.spk
 ## Brief
 I have fixed bugs for fitting dsm6.1~6.2,according to [this issue](https://github.com/SynoCommunity/spksrc/issues/1910)
 Tested on my ds3615xs, dsm6.2.
