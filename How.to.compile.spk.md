@@ -16,8 +16,9 @@
 docker run -idt \
      --name spk \
      -v ~/compiles/spk:/spksrc \
-     synocommunity/spksrc ```
-0. `docker exec -ti spk /bin/bash` 
+     synocommunity/spksrc 
+```
+3. `docker exec -ti spk /bin/bash` 
 Now, we are in the Container 'spk'.
 
 ## Container 'spk'
