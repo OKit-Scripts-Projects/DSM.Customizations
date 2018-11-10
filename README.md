@@ -24,10 +24,22 @@ Chroot In Command:
 
 Now, you are in debian-chroot.
 
-## Download
+## Downloads
 [tenhow.debian-chroot.dsm6.[1/2].bromolow](https://www.dropbox.com/s/r4udr737knvv3jo/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.bromolow.zip?dl=0)
 
-## P.S.
+## Helps
 As I am using ds3615xs, I compiled this.
 
 If you need other platforms, please make an issue, I would compile one for your platform later.
+
+## Optimize
+0. `apt update`
+0. `apt upgrade`
+0. `dpkg-reconfigure tzdata`
+
+
+
+## For Chinese
+If you are Chinese, you may would like to change your apt source to 163's
+tzdata choose [asia/shanghai]
+
