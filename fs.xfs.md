@@ -3,6 +3,12 @@
 0. My Main Storage Volume is `/volume2`
 0. My Target Disk here is `/dev/sdc`
 
+## Prepare
+0. download or compile the xfs modules
+0. transmit to your DSM
+0. put xfs modules in `/xfs/xfs.ko`
+0. install debian-chroot
+
 ## Instructions
 Chroot in debian, then 
 
