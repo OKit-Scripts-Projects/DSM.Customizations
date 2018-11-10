@@ -7,6 +7,9 @@ And then I upload to my dropbox, you can download here, link below.
 
 which include debian-chroot.spk and python.spk
 
+## Declares
+0. I use volume2 as my application storage volume, many are volume1. so you should change it by yourself.
+
 ## Instructions
 ***The Web UI Status Tab is not available.***
 
@@ -15,9 +18,9 @@ which include debian-chroot.spk and python.spk
 SSH to your dsm, and input those commands below
 
 0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command`
-1. `chroot /volume1/\@appstore/debian-chroot/var/chroottarget /bin/bash # Chroot In Command` 
+1. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget /bin/bash # Chroot In Command, change volume2 to yours exact volume
 
-(`/volume1` should replced by your own application storage volume number)
+(`/volume2` should replced by your own application storage volume number)
 
 Now, you are in debian-chroot.
 
