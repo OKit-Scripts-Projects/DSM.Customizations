@@ -37,3 +37,6 @@ Then `mount -o bind` to System Folder
 0. `insmod /xfs/xfs.ko`
 0. `mount -t xfs /dev/sdc1 /dataVol0`
 0. `mount -o bind /dataVol0 /volume2/data/vol0`
+
+## Check
+Now check your setting, then reboot for checking again.
