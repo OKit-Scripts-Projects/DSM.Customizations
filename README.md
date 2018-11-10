@@ -12,13 +12,8 @@ The Web UI is not available.
 
 SSH to your dsm, and input those commands below
 
-Start Command:
-
-`/var/packages/debian-chroot/scripts/start-stop-status start`
-
-Chroot In Command:
-
-`chroot /volume1/\@appstore/debian-chroot/var/chroottarget /bin/bash`
+0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command`
+1. `chroot /volume1/\@appstore/debian-chroot/var/chroottarget /bin/bash # Chroot In Command` 
 
 (`/volume1` should replced by your own application storage volume number)
 
