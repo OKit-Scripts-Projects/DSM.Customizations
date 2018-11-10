@@ -8,7 +8,7 @@
 0. I use /homes/
 0. I called the docker container `spk`
 
-## Docker Related
+## Host
 0. `docker pull synocommunity/spksrc`
 0. `mkdir -p ~/compiles/spk # Use this Directory for store docker spk root`
 0. 
@@ -18,5 +18,9 @@ docker run -idt \
      -v ~/compiles/spk:/spksrc \
      synocommunity/spksrc 
 ```
-0. `docker exec -ti spk /bin/bash` # Get in the Container 'spk', Then do follow things in docker container 'spk'
+0. `docker exec -ti spk /bin/bash` 
+Now, we are in the Container 'spk'.
+
+## Container 'spk'
+Then do follow things in docker container 'spk'.
 0. git clone https://github.com/SynoCommunity/spksrc.git /spksrc
