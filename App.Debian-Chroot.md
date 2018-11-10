@@ -8,7 +8,7 @@ And then I upload to my dropbox, you can download here, link below.
 which include debian-chroot.spk and python.spk
 
 ## Instructions
-***The Web UI is not available.***
+***The Web UI Status Tab is not available.***
 
 ***Just use shell***
 
