@@ -3,8 +3,8 @@ Customize DSM6.[1/2]
 
 ##  Index
 ### App
-Debian-Chroot
-DS Audio
+0. Debian-Chroot
+0. DS Audio
 
 ### FileSystem
-FileSystem.xfs
+0. FileSystem.xfs
