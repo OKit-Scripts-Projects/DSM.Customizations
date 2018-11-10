@@ -19,13 +19,12 @@ then `mount -o bind` to System Home Folder
 
 ## Example 
 0. `mount -t xfs /dev/sdc1 /dataVol0`
-0. make a shared folder in DSM.WebUI, called `data`
+0. make a shared folder in DSM.WebUI.Shared_Folder module, called `data`
 0. `mkdir -p /volume2/data/vol0`
 0. `mount -o bind /dataVol0 /volume2/data/vol0`
 
 ### DS Audio
 0. `mkdir -p /dataVol0/music`
 0. put some music in it above
-0. `mkdir -p /volume2/music/vol0`
-0. `mount -o bind /dataVol0/music /volume2/music/vol0`
+0. add `/volume*/homes/data/vol0/music` to your index on DSM.WebUI.Indexing_Service module
 0. `/usr/syno/bin/synoindex -R audio`
