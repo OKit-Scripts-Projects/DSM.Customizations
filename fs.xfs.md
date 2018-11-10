@@ -21,7 +21,7 @@ Then `exit` chroot,
 Then `mount -o bind` to System Folder
 
 0. `mount -t xfs /dev/sdc1 /dataVol0`
-0. make a shared folder in DSM.WebUI.Shared_Folder module, called `data`
+0. Make a shared folder in DSM.WebUI.Shared_Folder module, called `data`
 0. `mkdir -p /volume2/data/vol0`
 0. `mount -o bind /dataVol0 /volume2/data/vol0`
 
