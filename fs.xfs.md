@@ -1,6 +1,6 @@
 # FileSystem.xfs
 ## Declares
-0. My Main Storage Volume is `Volume2`
+0. My Main Storage Volume is `/volume2`
 0. My Target Disk here is `/dev/sdc`
 
 ## Instructions
@@ -36,3 +36,4 @@ Then `mount -o bind` to System Folder
 0. In module WebUI.Task_Scheduler add boot-up script, input commands below
 0. `insmod /xfs/xfs.ko`
 0. `mount -t xfs /dev/sdc1 /dataVol0`
+0. `mount -o bind /dataVol0 /volume2/data/vol0`
