@@ -11,9 +11,11 @@
 ## Docker Related
 0. `docker pull synocommunity/spksrc`
 0. `mkdir -p ~/compiles/spk # Use this dir for docker spk root`
-0. ```
+0. 
+```
   docker run -idt \
          --name spk \
          -v ~/compiles/spk:/spksrc 
-         synocommunity/spksrc ```
+         synocommunity/spksrc 
+```
 0. `docker `
