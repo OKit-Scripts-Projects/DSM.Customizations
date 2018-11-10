@@ -10,12 +10,14 @@
 
 ## Docker Related
 0. `docker pull synocommunity/spksrc`
-0. `mkdir -p ~/compiles/spk # Use this dir for docker spk root`
+0. `mkdir -p ~/compiles/spk # Use this Directory for store docker spk root`
 0. 
 ```
 docker run -idt \
      --name spk \
      -v ~/compiles/spk:/spksrc \
      synocommunity/spksrc 
+     # 
 ```
-0. `docker `
+0. `docker exec -ti spk /bin/bash` # Then do follow things in docker container spk
+0. git clone https://github.com/SynoCommunity/spksrc.git /spksrc
