@@ -9,7 +9,9 @@ which include debian-chroot.spk and python.spk
 
 ## Instructions
 ***The Web UI is not available.***
+
 ***Just use shell***
+
 SSH to your dsm, and input those commands below
 
 0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command`
