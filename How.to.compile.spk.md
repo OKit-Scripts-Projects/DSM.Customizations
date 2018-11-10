@@ -12,7 +12,7 @@
 ## Host
 0. `docker pull synocommunity/spksrc`
 0. `mkdir -p ~/compiles/spk # Use this Directory for store docker spk root`
-0. copy the whole code block to terminal for start a container 'spk'
+0. Copy the whole code block below to terminal for start a container 'spk'
 ``` 
 docker run -idt \
      --name spk \
