@@ -17,7 +17,6 @@ docker run -idt \
      --name spk \
      -v ~/compiles/spk:/spksrc \
      synocommunity/spksrc 
-     # 
 ```
-0. `docker exec -ti spk /bin/bash` # Then do follow things in docker container spk
+0. `docker exec -ti spk /bin/bash` # Get in the Container 'spk', Then do follow things in docker container 'spk'
 0. git clone https://github.com/SynoCommunity/spksrc.git /spksrc
