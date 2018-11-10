@@ -1,0 +1,6 @@
+## fs.xfs
+chroot in debian
+then 
+`apt install xfsprogs`
+`fdisk /dev/sd* # create disk sd*1`
+`mkfs.xfs -f /dev/sd*1`
