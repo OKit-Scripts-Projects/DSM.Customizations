@@ -1,4 +1,5 @@
-## fs.xfs
+# FileSystem.xfs
+## Instructions
 chroot in debian,then 
 
 0. `apt install xfsprogs`
@@ -10,3 +11,6 @@ then `exit` chroot,
 0. `insmod xfs`
 0. `mkdir /dataVol0`
 0. `mount -t xfs /dev/sd*1 /dataVol0`
+
+## Example 
+0. `mount -t xfs /dev/sdc1 /dataVol0`
