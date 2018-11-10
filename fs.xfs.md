@@ -22,3 +22,10 @@ then `mount -o bind` to System Home Folder
 0. make a shared folder in DSM.WebUI, called `data`
 0. `mkdir -p /volume2/data/vol0`
 0. `mount -o bind /dataVol0 /volume2/data/vol0`
+
+### DS Audio
+0. `mkdir -p /dataVol0/music`
+0. put some music in it above
+0. `mkdir -p /volume2/music/vol0`
+0. `mount -o bind /dataVol0/music /volume2/music/vol0`
+0. `/usr/syno/bin/synoindex -R audio`
