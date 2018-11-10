@@ -15,7 +15,7 @@
 ```
 docker run -idt \
      --name spk \
-     -v ~/compiles/spk:/spksrc 
+     -v ~/compiles/spk:/spksrc \
      synocommunity/spksrc 
 ```
 0. `docker `
