@@ -96,7 +96,7 @@ Just use your way, many ways to copy it to your dest computers.
 0. `docker stop spk`
 
 ### Vim Ref.
-0. `vim filename`.
+0. `vim filename`
 0. `ZZ` for save and quite.
 0. `:0,s/a/b/g` for replace all `a` occurences to `b`.
 
