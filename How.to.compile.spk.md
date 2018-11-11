@@ -59,18 +59,18 @@ Attention that `syno-bromolow-` is correct, do not add any other things
 0. Change the line above: `ifeq ($(findstring $(ARCH),braswell bromolow cedarview x86 avoton x64 apollolake),$(ARCH))`
 0. Then save and `make ARCH="apollolake"`
 
-### Find Packages
+### Find Packages Compiled
 A long time later, the compile has been finished.
 0. `cd /spksrc/packages`
 0. `ls`
 0. Then you will see the package you just compiled
 0. Like `debian-chroot_bromolow-_8.4-7.spk`
 
-### Copy Packages Out To Host
+### Copy Packages To Host's Directory
 0. `exit` for exit from docker container 'spk'.
 0. `docker container cp spk:/spksrc/packages/debian-chroot_bromolow-_8.4-7.spk ~/` For copy the package to your Home Directory or other places on your host OS.
 
-### Copy Packages Out To Other Computers
+### Copy Packages Out To Other Computers' Directory
 Just use your way, many ways to copy it to your dest computers.
 0. smb    
 0. ftp
