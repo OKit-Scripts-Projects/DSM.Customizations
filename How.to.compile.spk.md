@@ -1,7 +1,7 @@
 # How.to.compile.spk
 
 ## Brief
-0. This is a step-by-step tutoril for compiling package, I use Debian-Chroot as an example. 
+0. This is a step-by-step tutoril for compiling package, we compile Debian-Chroot here as an example. 
 0. If you have other questions, pleae just make an issue at this repository.
 
 ## Prepares
