@@ -5,16 +5,16 @@
 0. If you have other questions, pleae just make an issue at this repository.
 
 ## Prepares
-0. Any OS which supported Docker (such as debian, windows, DSM6 with docker.)
+0. Any OS which supported Docker (such as Debian, Windows, DSM6 with docker.)
 
 ## Declares
-0. I use debian as host OS
-0. Docker CE installed
-0. I use /homes/
+0. I use Debian 9 as host OS
+0. With Docker CE installed
+0. I use `~/compiles/spk` as the compile working directory
 0. I called the docker container `spk`
-0. I am compiling arch `syno-bromolow-6.1`
+0. I am compiling `syno-bromolow-6.1` which is for DS3615xs DSM6.1.
 
-## Host
+## Host Things
 0. `docker pull synocommunity/spksrc`
 0. `mkdir -p ~/compiles/spk # Use this Directory for store docker spk root`
 0. Copy the whole code block below to terminal for start a container 'spk'
@@ -28,7 +28,7 @@ docker run -idt \
 
 Now, we are in the Container 'spk'.
 
-## Container 'spk'
+## Container 'spk' Things
 Then do follow things in docker container 'spk'.
 
 ### Init (Spk Source and Toolchain)
@@ -69,13 +69,13 @@ A long time later, the compile has been finished.
 0. `cd /spksrc/packages`
 0. `ls`
 0. Then you will see the package you just compiled
-0. Like `debian-chroot_bromolow-_8.4-7.spk`
+0. Just like `debian-chroot_bromolow-_8.4-7.spk`
 
-### Copy Packages To Host's Directory
+## Copy Packages To Host's Directory
 0. `exit` for exit from docker container 'spk'.
 0. `docker container cp spk:/spksrc/packages/debian-chroot_bromolow-_8.4-7.spk ~/` For copy the package to your Home Directory or other places on your host OS.
 
-### Copy Packages Out To Other Computers' Directory
+## Copy Packages Out To Other Computers' Directory
 Just use your way, many ways to copy it to your dest computers.
 0. smb    
 0. ftp
