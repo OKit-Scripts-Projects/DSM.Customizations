@@ -41,8 +41,8 @@ Attention that `syno-bromolow-` is correct, do not add any other things
 ### Modify Debian-Chroot
 0. `cd /spksrc/spk/debian-chroot/src/app`
 0. `vim debian-chroot.js`
-0. Copy `:0,$s/3rdparty\/debian-chroot/webman\/3rdparty\/debian-chroot/g` then just paste and enter, just one time. 
-0. Copy `ZZ` then just paste.
+0. Copy `:0,$s/3rdparty\/debian-chroot/webman\/3rdparty\/debian-chroot/g` then just paste and enter, just one time.For mods. 
+0. Copy `ZZ` then just paste, for closing the file and saving the mods.
 0. Now, you have finished modify the Debian-Chroot for being compatible with DSM6.[1/2]. 
 
 ### Compile Debian-Chroot
