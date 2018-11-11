@@ -20,7 +20,7 @@ SSH to your dsm, and input those commands below
 0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command`
 1. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget /bin/bash # Chroot In Command, change volume2 to yours exact volume`
 
-(`/volume2` should replced by your own application storage volume number)
+(`/volume2` should replaced by your own application storage volume number)
 
 Now, you are in debian-chroot.
 
