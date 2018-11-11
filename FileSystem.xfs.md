@@ -1,4 +1,8 @@
 # FileSystem.xfs
+## Brief
+I prefer `xfs` rather than `ext4` or `brtfs` for my disks, so I compiled a kernel module for xfs.
+And here, I would make a tutoril for use `xfs` in DSM6.x
+
 ## Declares
 0. My Main Storage Volume is `/volume2`
 0. My Target Disk here is `/dev/sdc`
