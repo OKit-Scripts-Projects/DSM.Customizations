@@ -73,8 +73,10 @@ A long time later, the compile has been finished.
 0. Just like `debian-chroot_bromolow-_8.4-7.spk`
 
 ## Copy Packages To Host's Directory
+For copy the package to your Home Directory or other places on your host OS, do the things below.
+
 0. `exit` for exit from docker container 'spk'.
-0. `docker container cp spk:/spksrc/packages/debian-chroot_bromolow-_8.4-7.spk ~/` For copy the package to your Home Directory or other places on your host OS.
+0. `docker container cp spk:/spksrc/packages/debian-chroot_bromolow-_8.4-7.spk ~/` 
 
 ## Copy Packages Out To Other Computers' Directory
 Just use your way, many ways to copy it to your dest computers.
