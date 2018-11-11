@@ -1,4 +1,9 @@
 # How.to.compile.spk
+
+## Brief
+0. This is a step-by-step tutoril for compiling package, I use Debian-Chroot as an example. 
+0. If you have other questions, pleae just make an issue at this repository.
+
 ## Prepares
 0. Any OS which supported Docker (such as debian, windows, DSM6 with docker.)
 
@@ -77,9 +82,6 @@ Just use your way, many ways to copy it to your dest computers.
 0. sftp
 0. scp, sz
 ...
-
-## P.S.
-0. This is a step-by-step tutoril for compiling package, I use Debian-Chroot as an example, if you have other questions, pleae just make an issue at this repository.
 
 ## References
 ### Docker Ref.
