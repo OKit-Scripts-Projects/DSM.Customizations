@@ -40,8 +40,3 @@ If you need other platforms, please make an issue, I would compile one for your 
 0. `apt install locales`
 0. `dpkg-reconfigure locales`
 
-## For Chinese
-If you are Chinese, you may would like to change your apt source to 163's
-
-tzdata choose [asia/shanghai]
-
