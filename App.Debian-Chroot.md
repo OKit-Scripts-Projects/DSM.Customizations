@@ -25,7 +25,8 @@ SSH to your DSM6.x, and input those commands below
 Now, you are in debian-chroot.
 
 ## Downloads
-[Tenhow.debian-chroot.dsm6.[1/2].bromolow](https://www.dropbox.com/s/r4udr737knvv3jo/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.bromolow.zip?dl=0)
+0. [bromolow.debian-chroot.dsm6.[1/2]](https://www.dropbox.com/s/r4udr737knvv3jo/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.bromolow.zip?dl=0)
+0. [apollolake.debian-chroot.dsm6.[1/2]](https://www.dropbox.com/s/aef5a6a70tparbc/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.apollolake.zip?dl=0) 
 
 ## Helps
 As I am using ds3615xs, I compiled this.
