@@ -1,6 +1,6 @@
 # DSM Customize Repository
 ## Brief
-This repository is for log how to customize DSM6.[1/2] with your own willings.
+This repository is for log how to customize DSM6.[1/2] with your own willingness.
 
 ##  Index
 ### How to Compile
