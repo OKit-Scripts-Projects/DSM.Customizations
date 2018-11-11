@@ -57,7 +57,7 @@ Attention that `syno-bromolow-` is correct, do not add any other things
 0. Find the line `DEBIAN_ARCH = amd64`, as apollolake is x64 arch. 
 0. see the line over it : `ifeq ($(findstring $(ARCH),braswell bromolow cedarview x86 avoton x64),$(ARCH))`
 0. Change the line above: `ifeq ($(findstring $(ARCH),braswell bromolow cedarview x86 avoton x64 apollolake),$(ARCH))`
-0. Then `make ARCH="apollolake"`
+0. Then save and `make ARCH="apollolake"`
 
 ### Find Packages
 A long time later, the compile has been finished.
