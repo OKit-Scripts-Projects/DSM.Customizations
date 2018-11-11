@@ -41,5 +41,6 @@ If you need other platforms, please make an issue, I would compile one for your 
 
 ## For Chinese
 If you are Chinese, you may would like to change your apt source to 163's
+
 tzdata choose [asia/shanghai]
 
