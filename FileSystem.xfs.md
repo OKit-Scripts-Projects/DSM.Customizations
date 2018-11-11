@@ -1,7 +1,10 @@
 # FileSystem.xfs
 ## Brief
 I prefer `xfs` rather than `ext4` or `btrfs` for my disks, so I compiled a kernel module for xfs.
+
 And here, I would make a tutoril for use `xfs` in DSM6.x
+
+It's an advanced usage, if you like to use `xfs`, please make an issue at this repository for a `xfs.ko` or you can also compile by yourself. 
 
 ## Declares
 0. My Main Storage Volume is `/volume2`
