@@ -78,6 +78,7 @@ A long time later, the compile has been finished.
 
 ## Copy Packages Out To Other Computers' Directory
 Just use your way, many ways to copy it to your dest computers.
+
 0. smb    
 0. ftp
 0. sftp
