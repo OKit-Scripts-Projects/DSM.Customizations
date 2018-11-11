@@ -1,5 +1,5 @@
 # DSM Customize Repository
-Customize DSM6.[1/2]
+Customizing DSM6.[1/2]
 
 ##  Index
 ### How to Compile
