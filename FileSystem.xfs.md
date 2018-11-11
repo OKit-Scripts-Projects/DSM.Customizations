@@ -1,6 +1,6 @@
 # FileSystem.xfs
 ## Brief
-I prefer `xfs` rather than `ext4` or `brtfs` for my disks, so I compiled a kernel module for xfs.
+I prefer `xfs` rather than `ext4` or `btrfs` for my disks, so I compiled a kernel module for xfs.
 And here, I would make a tutoril for use `xfs` in DSM6.x
 
 ## Declares
