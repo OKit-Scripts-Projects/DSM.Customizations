@@ -28,7 +28,7 @@ Now, you are in debian-chroot.
 0. [Tenhow.debian-chroot.dsm6.[1/2].Bromolow](https://www.dropbox.com/s/r4udr737knvv3jo/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.bromolow.zip?dl=0) [as DS3615xs]
 0. [Tenhow.debian-chroot.dsm6.[1/2].ApolloLake](https://www.dropbox.com/s/aef5a6a70tparbc/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.apollolake.zip?dl=0) [as DS918+]
 0. [Tenhow.debian-chroot.dsm6.[1/2].Cedarview](https://www.dropbox.com/s/85kzm6pgm90imnr/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.cedarview.zip?dl=0) [as DS1213+]
-0. [Tenhow.debian-chroot.dsm6.[1/2].ArmadaXP](...) [as RS815]
+0. [Tenhow.debian-chroot.dsm6.[1/2].ArmadaXP](https://www.dropbox.com/s/04ivz8nfztg2fe9/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armadaxp.zip?dl=0) [as RS815]
 
 ## Helps
 As I am using ds3615xs, I compiled this.
