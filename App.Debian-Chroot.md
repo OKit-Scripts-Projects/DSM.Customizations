@@ -24,6 +24,9 @@ SSH to your DSM6.x, and input those commands below
 
 Now, you are in debian-chroot.
 
+## Attention
+0. Somebody meet some problem after installing this package, sometimes a Reboot is needed.
+
 ## Downloads
 0. [Tenhow.debian-chroot.dsm6.[1/2].bromolow](https://www.dropbox.com/s/r4udr737knvv3jo/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.bromolow.zip?dl=0) [as DS3615xs]
 0. [Tenhow.debian-chroot.dsm6.[1/2].apollolake](https://www.dropbox.com/s/aef5a6a70tparbc/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.apollolake.zip?dl=0) [as DS918+]
