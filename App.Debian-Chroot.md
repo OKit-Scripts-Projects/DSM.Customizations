@@ -25,8 +25,10 @@ SSH to your DSM6.x, and input those commands below
 Now, you are in debian-chroot.
 
 ### Additional Step for services
-If you need startup services, just add these kind of lines in your ***host synology*** bash rc.local file
-0. `chroot /etc/init.d/crontab start` ## waiting for further editing. here is sketch.
+If you need startup services, just add these kind of lines below in your ***Host DSM6.x***'s startup script in WebUI
+0. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget '/etc/init.d/cron' 'start'` ## for start cron service
+
+So are the other services to start at DSM startup.
 
 ## Attention
 0. Somebody meet some problem after installing this package, sometimes a Reboot is needed.
