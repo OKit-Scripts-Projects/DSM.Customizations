@@ -13,7 +13,7 @@ which include debian-chroot.spk and python.spk
 ## Instructions
 ***The Web UI Status Tab is not available.***
 
-***Just use shell***
+***Just use shell and the service tab is available***
 
 SSH to your DSM6.x, and input those commands below
 
