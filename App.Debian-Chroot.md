@@ -10,8 +10,8 @@ which include debian-chroot.spk and python.spk
 ## Declares
 0. I use volume2 as my application storage volume, many are volume1. so you should change it by yourself.
 
-## Instructions
-***The Web UI Status Tab is not available.But the service tab seems available***
+## Instructions !!!
+***The Web UI Status Tab is not available.***
 
 ***Try to use shell totally***
 
@@ -23,6 +23,10 @@ SSH to your DSM6.x, and input those commands below
 (`/volume2` should replaced by your own application storage volume number)
 
 Now, you are in debian-chroot.
+
+### Additional Step for services
+If you need startup services, just add this kind of lines in your ***host synology*** bash rc.local file
+0. 
 
 ## Attention
 0. Somebody meet some problem after installing this package, sometimes a Reboot is needed.
