@@ -35,7 +35,7 @@ Now, you are in debian-chroot.
 0. [Tenhow.debian-chroot.dsm6.[1/2].88f628x](https://www.dropbox.com/s/w4psq4m4dgpdy4m/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.88f628x.zip?dl=0) [as DS212]
 0. [Tenhow.debian-chroot.dsm6.[1/2].armada375]() [as DS215j]Adding
 0. [Tenhow.debian-chroot.dsm6.[1/2].monaco]() [as DS216play]Adding
-0. [Tenhow.debian-chroot.dsm6.[1/2].armada38x](https://www.dropbox.com/s/71p8e49dwbuv3zu/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armada38x.zip?dl=0) [as DS216j]
+0. [Tenhow.debian-chroot.dsm6.[1/2].armada38x](https://www.dropbox.com/s/71p8e49dwbuv3zu/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armada38x.zip?dl=0) [as DS216j(@d4n1elchen)] 
 0. [Tenhow.debian-chroot.dsm6.[1/2].rtd1296]() [as DS418] Adding
 0. [Tenhow.debian-chroot.dsm6.[1/2].avaton](https://www.dropbox.com/s/qroxml7bi7xy2oq/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.avoton.zip?dl=0) [as DS1817+]
 
