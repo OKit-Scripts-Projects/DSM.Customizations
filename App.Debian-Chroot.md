@@ -54,7 +54,7 @@ If you need other platforms, please make an issue, I would compile one for your 
 0. `apt install locales`
 0. `dpkg-reconfigure locales`
 
-## Stars
+## Request
 If this repository helped, please give it a star, to get others and me known, this repository is helpfull.
 
 Happy hacking! Haha
