@@ -57,7 +57,7 @@ If you need other platforms, please make an issue, I would compile one for your 
 ## Request
 If this repository helped, please give it a star, indicating this repository is helpfull.
 
-Happy hacking! Haha
+Happy hacking! 
 
 ## References
 0. [What_kind_of_CPU_does_my_NAS_have](https://www.synology.com/zh-tw/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have)
