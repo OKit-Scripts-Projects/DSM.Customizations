@@ -55,7 +55,7 @@ If you need other platforms, please make an issue, I would compile one for your 
 0. `dpkg-reconfigure locales`
 
 ## Request
-If this repository helped, please give it a star, showing this repository is helpfull.
+If this repository helped, please give it a star, indicating this repository is helpfull.
 
 Happy hacking! Haha
 
