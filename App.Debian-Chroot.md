@@ -24,7 +24,7 @@ SSH to your DSM6.x, and input those commands below
 
 Now, you are in debian-chroot.
 
-### Additional Step for services
+### Additional Step for Services
 If you need startup services, just add these kind of lines below in your ***Host DSM6.x***'s startup script in WebUI
 
 0. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget '/etc/init.d/cron' 'start'` ## for start cron service
