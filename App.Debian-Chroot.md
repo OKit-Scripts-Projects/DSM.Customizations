@@ -11,9 +11,9 @@ which include debian-chroot.spk and python.spk
 0. I use volume2 as my application storage volume, many are volume1. so you should change it by yourself.
 
 ## Instructions
-***The Web UI Status Tab is not available.***
+***The Web UI Status Tab is not available.But the service tab seems available***
 
-***Just use shell and the service tab is available***
+***Try to use shell totally***
 
 SSH to your DSM6.x, and input those commands below
 
