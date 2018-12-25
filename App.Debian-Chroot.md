@@ -42,10 +42,10 @@ Now, you are in debian-chroot.
 
 
 
-## Helps
+## Platform
 As I am using ds3615xs, I compiled this.
 
-If you need other platforms, please make an issue, I would compile one for your platform later.
+If you need other platforms, just make an new issue, I would compile one for your platform later in my free time.
 
 ## Optimize
 0. `apt update`
