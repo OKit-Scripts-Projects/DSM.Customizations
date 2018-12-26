@@ -1,6 +1,8 @@
 # Debian Chroot魔改包
 ## 简介
-我 debian 源码打了适配补丁, 现在可以在DSM6.1~6.2的平台上运行了.参考的是[this issue](https://github.com/SynoCommunity/spksrc/issues/1910)
+去年刚开始用群晖的时候，我发现我的平台上官方没有提供可用的debian，今年我又看了以下，可以自行编译。
+
+踩了很多坑后，我给debian 源码打了适配补丁, 现在可以在DSM6.1~6.2的平台上运行了。参考了[这条 Issue](https://github.com/SynoCommunity/spksrc/issues/1910)
 
 这个包目前在群晖的很多平台上都运行成功了,可以放心下载。
 
@@ -28,7 +30,7 @@ SSH 到 DSM6.x, 输入以下命令
 ### 开启服务附加步骤
 如果你需要开机启动一些debian里的服务, 那就在群晖的网页界面添加开机计划任务，把类似以下的代码添加进开机脚本。
 
-0. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget '/etc/init.d/cron' 'start'` ## 这用来启动Debian里的定时任务
+0. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget '/etc/init.d/cron' 'start' # 这用来启动Debian里的定时任务`
 
 类似的，你可以用这样的代码来启动你的其他服务，如ssh之类的。
 
