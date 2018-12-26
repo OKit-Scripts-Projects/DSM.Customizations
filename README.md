@@ -1,4 +1,7 @@
 # DSM Customizations
+ 
+ [中文]()
+ 
 ## Brief
 This repository is for logging and discussing how to customize DSM6.[1/2] with your own willingness.
 
