@@ -38,16 +38,9 @@ SSH 到 DSM6.x, 输入以下命令
 0. 有人说安装好debian以后可能需要重启群晖，如果你遇到安装好以后有运行问题，那么重启试试看。
 
 ## 下载连接
-0. [Tenhow.debian-chroot.dsm6.[1/2].bromolow](https://www.dropbox.com/s/r4udr737knvv3jo/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.bromolow.zip?dl=0) [as DS3615xs] [Required by myself] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].apollolake](https://www.dropbox.com/s/aef5a6a70tparbc/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.apollolake.zip?dl=0) [as DS918+] [Required by lordvalium] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].cedarview](https://www.dropbox.com/s/85kzm6pgm90imnr/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.cedarview.zip?dl=0) [as DS1213+] [Required by Tao87-04] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].armadaxp](https://www.dropbox.com/s/04ivz8nfztg2fe9/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armadaxp.zip?dl=0) [as RS815] [Required by DzikNsk] [No Feedback Yet]
-0. [Tenhow.debian-chroot.dsm6.[1/2].88f628x](https://www.dropbox.com/s/w4psq4m4dgpdy4m/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.88f628x.zip?dl=0) [as DS212] [Required by balabalaman] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].armada375](https://www.dropbox.com/s/6oc6ioc2c7abqti/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.rtd1296.zip?dl=0) [as DS215j] [Required by paul-xor] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].monaco](https://www.dropbox.com/s/3a6ocgfvdshzixr/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.monaco.zip?dl=0) [as DS216play] [Required by d4n1elchen] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].armada38x](https://www.dropbox.com/s/71p8e49dwbuv3zu/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armada38x.zip?dl=0) [as DS216j] [Required by d4n1elchen] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].rtd1296](https://www.dropbox.com/s/6oc6ioc2c7abqti/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.rtd1296.zip?dl=0) [as DS418] [Required by gypittmann] [!Not Tested Yet!] 
-0. [Tenhow.debian-chroot.dsm6.[1/2].avaton](https://www.dropbox.com/s/qroxml7bi7xy2oq/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.avoton.zip?dl=0) [as DS1817+] [Required by droidboxma] √
+包太多我就不一一指明了，你可以通过查看群晖官方的[型号架构对应表](https://www.synology.com/zh-tw/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have)来确定你需要安装哪个包。
+
+[百度网盘](https://pan.baidu.com/s/1Tyumk7eHX5TekH5wiegMUg)
 
 
 ## 运行平台
