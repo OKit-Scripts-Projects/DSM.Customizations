@@ -21,7 +21,7 @@ Debian-Chroot包是依赖python的，因为python编译太慢了，而且往往�
 SSH 到 DSM6.x, 输入以下命令
 
 0. `/var/packages/debian-chroot/scripts/start-stop-status start # debian启动命令`
-1. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget /bin/bash # Chroot 的进入命令`
+1. `chroot "/volume2/@appstore/debian-chroot/var/chroottarget" "/bin/bash" # Chroot 的进入命令`
 
 (`/volume2` 把 volume2 换成你自己存软件的卷,通常是volume1)
 
