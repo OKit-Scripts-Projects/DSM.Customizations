@@ -1,6 +1,6 @@
 # DSM Customizations
  
- [中文]()
+ [中文](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/README_CN.md)
  
 ## Brief
 This repository is for logging and discussing how to customize DSM6.[1/2] with your own willingness.
