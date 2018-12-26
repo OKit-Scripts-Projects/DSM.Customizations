@@ -55,7 +55,8 @@ SSH 到 DSM6.x, 输入以下命令
 0. `apt upgrade`
 0. `dpkg-reconfigure tzdata`
 0. `apt install locales`
-0. `dpkg-reconfigure locales`
+0. `dpkg-reconfigure locales` 亚洲找上海
+0. 你可能还需要修改源到163，这样apt下载软件才快些。
 
 ## 使用建议
 如果你觉得这个库有用，那给颗★是最好的支持，让更多人看到这个库。
