@@ -6,7 +6,7 @@
 
 这个包目前在群晖的很多平台上都运行成功了,可以放心下载。
 
-Debian-Chroot包是依赖python的，因为python编译太慢了，而且往往群晖套件中心都能下载到，所以就没有提供python包，只提供了bromolow平台的python，如有需要，提Issue，我空了编译给你。
+Debian-Chroot包是依赖python的，因为python编译太慢了，而且往往群晖套件中心都能下载到，所以就没有提供python包，只提供了bromolow平台的python(在zip里)，如有需要，提Issue，我空了编译给你。
 
 ## 声明
 0. 我的软件是装在`volume2`的, 所以接下来的演示代码中包含`volume2`的代码,需要你把它替换成你自己的软件盘，通常默认是`volume1`.
