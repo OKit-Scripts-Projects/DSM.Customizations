@@ -1,4 +1,4 @@
-# DSM Customizations
+# DSM Customizations (群晖魔改库)
  
  [中文](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/README_CN.md)
  
