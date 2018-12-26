@@ -1,5 +1,8 @@
 ## 换163源
 修改/etc/apt/sources.list
+
+删除原来的或者用#注释掉
+
 添加
 ```
 deb http://mirrors.163.com/debian/ jessie main non-free contrib
