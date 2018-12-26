@@ -18,7 +18,7 @@ which include debian-chroot.spk and python.spk
 SSH to your DSM6.x, and input those commands below
 
 0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command`
-1. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget /bin/bash # Chroot In Command, change volume2 to your exact volume`
+1. `chroot "/volume2/@appstore/debian-chroot/var/chroottarget" "/bin/bash" # Chroot In Command, change volume2 to your exact volume`
 
 (`/volume2` should replaced by your own application storage volume number)
 
