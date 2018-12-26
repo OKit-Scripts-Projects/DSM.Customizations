@@ -5,7 +5,7 @@
 欢迎提Issue
 
 ## 编译篇
-  0. [怎么编译群晖的官方应用程序]()待翻译 
+  0. [怎么编译群晖的官方应用程序](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/How.to.compile.spk.md#Brief)待翻译 
 
 ## 应用程序篇
   0. [适配DSM6.1和2的Debian-Chroot](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/App.Debian-Chroot.CN.md)
