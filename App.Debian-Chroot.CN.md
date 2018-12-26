@@ -30,7 +30,7 @@ SSH 到 DSM6.x, 输入以下命令
 ### 开启服务附加步骤
 如果你需要开机启动一些debian里的服务, 那就在群晖的网页界面添加开机计划任务，把类似以下的代码添加进开机脚本。
 
-0. `chroot /volume2/\@appstore/debian-chroot/var/chroottarget '/etc/init.d/cron' 'start' # 这用来启动Debian里的定时任务`
+0. `chroot "/volume2/@appstore/debian-chroot/var/chroottarget" "/etc/init.d/cron" "start" # 这用来启动Debian里的定时任务`
 
 类似的，你可以用这样的代码来启动你的其他服务，如ssh之类的。
 
