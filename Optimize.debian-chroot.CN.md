@@ -23,5 +23,5 @@ deb-src http://mirrors.163.com/debian-security/ jessie/updates main non-free con
 0. `dpkg-reconfigure tzdata # asia / shanghai`
 0. `apt install locales`
 0. `dpkg-reconfigure locales`
-0.第一个界面：选择 en_US.UTF-8, zh_CN.GB2312, zh_CN.GB18030, zh_CN.GBK, zh_CN.UTF-8 
-0.第二个界面：Default 选en_US.UTF-8
+0. 第一个界面：选择 en_US.UTF-8, zh_CN.GB2312, zh_CN.GB18030, zh_CN.GBK, zh_CN.UTF-8 
+0. 第二个界面：Default 选 en_US.UTF-8
