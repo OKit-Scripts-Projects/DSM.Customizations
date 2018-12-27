@@ -53,9 +53,9 @@ SSH 到 DSM6.x, 输入以下命令
 ## Debian初始化命令
 0. `apt update`
 0. `apt upgrade`
-0. `dpkg-reconfigure tzdata`
+0. `dpkg-reconfigure tzdata` # asia / shanghai
 0. `apt install locales`
-0. `dpkg-reconfigure locales` 亚洲找上海
+0. `dpkg-reconfigure locales` # 选择 en_US.UTF-8, zh_CN.GB2312, zh_CN.GB18030, zh_CN.GBK, zh_CN.UTF-8 然后Default 选en_US.UTF-8
 0. 你可能还需要[修改源到163](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/Optimize.debian-chroot.CN.md)，这样apt下载软件才快些。
 
 ## 使用建议
