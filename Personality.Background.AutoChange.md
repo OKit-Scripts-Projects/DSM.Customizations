@@ -5,7 +5,7 @@
 以及[Mojave的动态壁纸自定义](https://www.sysgeek.cn/macos-mojave-dynamic-wallpaper/)
 
 ## 简介
-从https://03k.org/dsm-bing.html看到的，利用代码抓取bing的图片，自动更换群晖的登录背景和桌布。
+从[lixuy](https://03k.org/dsm-bing.html)看到的，利用代码抓取bing的图片，自动更换群晖的登录背景和桌布。
 由此想到利用代码根据日照情况或者简单地依靠时间来做动态背景，就像Apple Mojave的动态背景。
 
 图片是有了，我从Jetson家“24 Hour Wallpaper”下载了他家全套24小时全分辨率图片，但是由于版权问题我这里不提供他家的付费图片，有需要的自行购买APP，然后提取和转换。
