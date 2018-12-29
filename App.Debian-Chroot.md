@@ -36,6 +36,7 @@ So are the other services to start at DSM startup.
 
 ## Downloads
 0. [Tenhow.debian-chroot.dsm6.[1/2].bromolow](https://www.dropbox.com/s/r4udr737knvv3jo/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.bromolow.zip?dl=0) [as DS3615xs] [Required by myself] √
+0. [Tenhow.debian-chroot.dsm6.[1/2].braswell](https://www.dropbox.com/s/trav40yk89sghgc/tenhow.debian-chroot.dsm6.%5B1%20or%202%5D.braswell.zip?dl=0) [as DS3617xs] [Required by myself] 
 0. [Tenhow.debian-chroot.dsm6.[1/2].apollolake](https://www.dropbox.com/s/aef5a6a70tparbc/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.apollolake.zip?dl=0) [as DS918+] [Required by lordvalium] √
 0. [Tenhow.debian-chroot.dsm6.[1/2].cedarview](https://www.dropbox.com/s/85kzm6pgm90imnr/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.cedarview.zip?dl=0) [as DS1213+] [Required by Tao87-04] √
 0. [Tenhow.debian-chroot.dsm6.[1/2].armadaxp](https://www.dropbox.com/s/04ivz8nfztg2fe9/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armadaxp.zip?dl=0) [as RS815] [Required by DzikNsk] [No Feedback Yet]
