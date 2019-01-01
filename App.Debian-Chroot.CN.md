@@ -55,9 +55,6 @@ SSH 到 DSM6.x, 输入以下命令
 
 [优化方案](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/Optimize.debian-chroot.CN.md)
 
-## 使用建议
-如果你觉得这个库有用，那给颗★是最好的支持，让更多人看到这个库。
-
 Happy hacking! 
 
 ## 参考资料
