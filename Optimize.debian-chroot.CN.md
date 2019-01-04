@@ -25,3 +25,13 @@ deb-src http://mirrors.163.com/debian-security/ jessie/updates main non-free con
 0. `dpkg-reconfigure locales`
 0. 第一个界面：选择 en_US.UTF-8, zh_CN.GB2312, zh_CN.GB18030, zh_CN.GBK, zh_CN.UTF-8 
 0. 第二个界面：Default 选 en_US.UTF-8
+
+## 其他优化
+0. `apt-get install software-properties-common`
+
+## fish
+```
+echo 'deb http://download.opensuse.org/repositories/shells:/fish:/release:/2/Debian_9.0/ /' > /etc/apt/sources.list.d/shells:fish:release:2.list
+apt-get update
+apt-get install fish
+```
