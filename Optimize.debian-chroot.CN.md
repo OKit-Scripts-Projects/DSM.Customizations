@@ -31,7 +31,7 @@ deb-src http://mirrors.163.com/debian-security/ jessie/updates main non-free con
 
 ## fish
 ```
-echo 'deb http://download.opensuse.org/repositories/shells:/fish:/release:/2/Debian_9.0/ /' > /etc/apt/sources.list.d/shells:fish:release:2.list
+echo 'deb http://download.opensuse.org/repositories/shells:/fish:/release:/2/Debian_8.0/ /' > /etc/apt/sources.list.d/shells:fish:release:2.list
 apt-get update
 apt-get install fish
 ```
