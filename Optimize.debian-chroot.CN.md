@@ -35,3 +35,8 @@ echo 'deb http://download.opensuse.org/repositories/shells:/fish:/release:/2/Deb
 apt-get update
 apt-get install fish
 ```
+```
+wget -nv https://download.opensuse.org/repositories/shells:fish:release:2/Debian_8.0/Release.key -O Release.key
+apt-key add - < Release.key
+apt-get update
+```
