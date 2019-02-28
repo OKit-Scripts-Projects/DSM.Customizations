@@ -47,7 +47,7 @@ So are the other services to start at DSM startup.
 0. [Tenhow.debian-chroot.dsm6.[1/2].rtd1296](https://www.dropbox.com/s/6oc6ioc2c7abqti/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.rtd1296.zip?dl=0) [as DS418] [Required by gypittmann] [!Not Tested Yet!] 
 0. [Tenhow.debian-chroot.dsm6.[1/2].avaton](https://www.dropbox.com/s/qroxml7bi7xy2oq/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.avoton.zip?dl=0) [as DS1817+] [Required by droidboxma] √
 0. [Tenhow.debian-chroot.dsm6.[1/2].evansport](https://www.dropbox.com/s/2cmi66fp0mst949/tenhow.debian-chroot.dsm6.%5B1%20or%202%5D.evansport.zip?dl=0) [as DS214Play/DS415] [Required by rasmusmaagaard and g91720] 
-0. [Tenhow.debian-chroot.dsm6.[1/2].qoriq](https://www.dropbox.com/s/t328ef3hyuhe9ko/debian-chroot_qoriq-_8.4-7.spk?dl=0) [as DS213+] [Required by ] 
+0. [Tenhow.debian-chroot.dsm6.[1/2].qoriq](https://www.dropbox.com/s/t328ef3hyuhe9ko/debian-chroot_qoriq-_8.4-7.spk?dl=0) [as DS213+] [Required by Yagz] 
 
 for qoriq
 
