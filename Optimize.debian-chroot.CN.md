@@ -40,3 +40,11 @@ wget -nv https://download.opensuse.org/repositories/shells:fish:release:2/Debian
 apt-key add - < Release.key
 apt-get update
 ```
+
+## 安装桌面
+
+## 安装远程桌面
+
+## 安装浏览器桌面
+
+## 安装 calibre
