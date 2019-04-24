@@ -8,7 +8,7 @@ And then I upload to my dropbox, you can download here, link below.
 which include debian-chroot.spk and python.spk
 
 ## Declares
-0. I use volume2 as my application storage volume, many are volume1. so you should change it by yourself.
+0. I use volume1 as my application storage volume, many are volume1. so you should change it by yourself.
 
 ## Instructions !!!
 ***The Web UI Status Tab is not available.***
@@ -18,16 +18,16 @@ which include debian-chroot.spk and python.spk
 SSH to your DSM6.x, and input those commands below
 
 0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command`
-1. `chroot "/volume2/@appstore/debian-chroot/var/chroottarget" "/bin/bash" # Chroot In Command, change volume2 to your exact volume`
+1. `chroot "/volume1/@appstore/debian-chroot/var/chroottarget" "/bin/bash" # Chroot In Command, change volume1 to your exact volume`
 
-(`/volume2` should replaced by your own application storage volume number)
+(`/volume1` should replaced by your own application storage volume number)
 
 Now, you are in debian-chroot.
 
 ### Additional Step for Services
 If you need startup services, just add these kind of lines below in your ***Host DSM6.x***'s startup script in WebUI
 
-0. `chroot "/volume2/@appstore/debian-chroot/var/chroottarget" "/etc/init.d/cron" "start"` ## for start cron service
+0. `chroot "/volume1/@appstore/debian-chroot/var/chroottarget" "/etc/init.d/cron" "start"` ## for start cron service
 
 So are the other services to start at DSM startup.
 
