@@ -17,12 +17,14 @@ which include debian-chroot.spk and python.spk
 
 SSH to your DSM6.x, and input those commands below
 
-0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command`
+0. `/var/packages/debian-chroot/scripts/start-stop-status start # Start Command #if you check the auto start, when installing, this is not needed`
 1. `chroot "/volume1/@appstore/debian-chroot/var/chroottarget" "/bin/bash" # Chroot In Command, change volume1 to your exact volume`
 
 (`/volume1` should replaced by your own application storage volume number)
 
 Now, you are in debian-chroot.
+#### Adittional
+Attention, on DSM6.x, this suite may not show running in DSM web interface, but you cant try the [1] command in ssh, you may find out that everything is ok.So, do not care about the web interface too much.
 
 ### Additional Step for Services
 If you need startup services, just add these kind of lines below in your ***Host DSM6.x***'s startup script in WebUI
