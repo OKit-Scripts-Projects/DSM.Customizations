@@ -24,7 +24,9 @@ SSH to your DSM6.x, and input those commands below
 
 Now, you are in debian-chroot.
 #### Adittional
-Attention, on DSM6.x, this suite may not show running in DSM web interface, but you cant try the [1] command in ssh, you may find out that everything is ok.So, do not care about the web interface too much.
+Attention, on DSM6.x, this suite may not show running in DSM web interface like picture bellow, but you cant try the [1] command in ssh, you may find out that everything is ok.So, do not care about the web interface too much.
+
+
 
 ### Additional Step for Services
 If you need startup services, just add these kind of lines below in your ***Host DSM6.x***'s startup script in WebUI
