@@ -1,0 +1,222 @@
+#!/bin/bash
+#
+# Poweroff computer when acpower failure.
+# Using this app with none communicated UPS.
+# 
+# app: autoac 
+# version: v2.0
+# author: tenhow.dev@gmail.com
+# license: GPL 
+#
+
+
+# configable: true
+# brief: configs
+configs() {
+	# your ips that without ups
+    IP_LIST="10.0.5.5 10.0.11.11"
+    # tolerance power resume time
+    _toleranceTime=240
+	# tolerance power resume ping number
+	_pingTimes=4
+}
+
+
+# configable: true
+# type: capsule
+# brief: log operation for acpower failure
+acpower_failure_log() {
+    synologset1 sys warn 0x11600036
+}
+
+
+# configable: true
+# type: capsule
+# brief: log operation for acpower resume
+acpower_resume_log() {
+    synologset1 sys warn 0x11600035
+}
+
+
+# configable: true
+# type: capsule
+# brief: log operation for poweroff
+poweroff_log() {
+    synologset1 sys warn 0x11600037
+}
+
+
+# type: sugar
+# brief: echo notification message
+notify() {
+	echo "[Notification]" $*
+}
+
+
+# type: sugar
+# brief: echo warning message
+warnify() {
+	echo "[Warning]" $1
+}
+
+# type: sugar
+# brief: echo error message
+errotify() {
+	echo "[Error]" $1
+}
+
+
+# type: sugar
+# brief: expect
+expect() {
+	echo ''
+}
+
+
+# type: sugar
+# brief: expect
+success() {
+	echo ''
+}
+
+
+# type: sugar
+# brief: expect
+failure() {
+    echo ''
+}
+
+
+# type: sugar
+# brief: expect
+and() {
+	echo ''
+}
+
+
+# type: sugar
+# brief: expect
+next() {
+	echo ''
+}
+
+
+# var: _toleranceTime
+# brief: notify user will sleep for a while
+sleep_operation() {
+    notify "Sleeping" "for" "$_toleranceTime" "seconds" "and" "run again"
+    sleep $_toleranceTime
+}
+
+
+# fun: acpower_failure_log
+# brief: warning user, log 
+acpower_failure_operation() {
+    warnify "AC power failure."
+	acpower_failure_log 
+}
+
+
+# type: capsule
+# brief: exit app
+exit_main() {
+	notify "See you then!"
+   	exit 0
+}
+
+
+# fun: exit_main
+# type: capsule
+# brief: when ac power online do nothing but exit app
+keep_poweron_operation() {
+    notify "AC Power online."
+    exit_main
+}
+
+# fun: acpower_resume_log, exit_main
+# type: capsule
+# brief: once ac power resumes, exit app
+acpower_resume_operation() {
+    notify "AC Power resumed"
+	acpower_resume_log
+    exit_main
+}
+
+ 
+# fun: acpowerfailure_log
+# type: capsule
+# brief: poweroff computer
+poweroff_operation() {
+    notify "Poweroff"
+    poweroff_log
+	poweroff
+}
+
+
+# var: NUM
+# fun: exit_main
+# expect: sucess
+# brief: ping a computer and do something then
+ping_operation() {
+    if ping -c 1 $IP >/dev/null; then
+        notify "Ping $IP operation is successful." 
+		`expect``success` $1
+    else
+        errotify "Ping $IP operation is failure!" "f-time =" `expect` "$2"
+    fi
+}
+
+
+# var: IP_LIST
+# fun: ping_operation
+# expect: sucess,failure
+# brief: get acpower status and do something expected
+get_acpower_status_operation() {
+    notify "Core Running Times:" "$_coreRunningTimes"
+    for IP in $IP_LIST; do
+        notify "Start ping $IP"
+    	NUM=1
+        while [ $NUM -le $_pingTimes ]; do
+	        ping_operation $1 $NUM
+	    	let NUM++
+    	done
+    done
+    `expect``failure` $2
+	let _coreRunningTimes++
+}
+
+
+# brief: init core vars
+init() {
+    # counting how many times the core codes have been run.
+    _coreRunningTimes=0
+}
+
+
+# brief: main function
+main() {
+    configs
+	init
+	notify "AutoAc is running" 
+
+    get_acpower_status_operation `expect` \
+	                             `success` keep_poweron_operation \
+	                             `failure` acpower_failure_operation  
+	sleep_operation 
+    get_acpower_status_operation `expect` \
+	                             `success` acpower_resume_operation \
+				   	             `failure` poweroff_operation
+	exit_main
+}
+
+
+main
+
+
+# Test Cases
+# -1.[√ ] configs: let paras small, IP_LIST contains just one ip.
+#  0.[√ ] success: make IP_LIST right;
+#  1.[√ ] failure and success: make IP_LIST wrong first and let IP_LIST wright before second; 
+#  2.[√ ] failure and failure: make IP_LIST wrong
+# 10.[√ ] configs: increase IP_LIST into mutlple ip
+# 11.[√ ] choose case.1. for test again.
