@@ -24,9 +24,9 @@ SSH to your DSM6.x, and input those commands below
 
 Now, you are in debian-chroot.
 #### Adittional
-Attention, on DSM6.x, this suite may not show running in DSM web interface like picture bellow, but you cant try the [1] command in ssh, you may find out that everything is ok.So, do not care about the web interface too much.
+Attention, on DSM6.x, this suite may not show running in DSM web interface like picture bellow, but you cant try the [1] command in ssh, you may find out that everything is ok.So, do not care about the web interface too much.At present I don't want to spend time on it, cause it is running well without web interface.
 
-
+![Picture](https://raw.githubusercontent.com/OKit-Scripts-Projects/DSM.Customizations/master/images/DebianChrootStoppedButRealRunning.jpg)
 
 ### Additional Step for Services
 If you need startup services, just add these kind of lines below in your ***Host DSM6.x***'s startup script in WebUI
@@ -47,7 +47,8 @@ So are the other services to start at DSM startup.
 0. [Tenhow.debian-chroot.dsm6.[1/2].cedarview](https://www.dropbox.com/s/85kzm6pgm90imnr/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.cedarview.zip?dl=0) [as DS1213+] [Required by Tao87-04] √
 0. [Tenhow.debian-chroot.dsm6.[1/2].armadaxp](https://www.dropbox.com/s/04ivz8nfztg2fe9/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armadaxp.zip?dl=0) [as RS815] [Required by DzikNsk] [No Feedback Yet]
 0. [Tenhow.debian-chroot.dsm6.[1/2].88f628x](https://www.dropbox.com/s/w4psq4m4dgpdy4m/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.88f628x.zip?dl=0) [as DS212] [Required by balabalaman] √
-0. [Tenhow.debian-chroot.dsm6.[1/2].armada375](https://www.dropbox.com/s/6oc6ioc2c7abqti/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.rtd1296.zip?dl=0) [as DS215j] [Required by paul-xor] √
+0. [Tenhow.debian-chroot.dsm6.[1/2].armada375](https://www.dropbox.com/s/9lqepe0jf2dub44/debian-chroot_armada375-_8.4-7.spk?dl=0) [as DS215j] [Required by paul-xor] [Build by @destoron]
+
 0. [Tenhow.debian-chroot.dsm6.[1/2].monaco](https://www.dropbox.com/s/3a6ocgfvdshzixr/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.monaco.zip?dl=0) [as DS216play] [Required by d4n1elchen] √
 0. [Tenhow.debian-chroot.dsm6.[1/2].armada38x](https://www.dropbox.com/s/71p8e49dwbuv3zu/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.armada38x.zip?dl=0) [as DS216j] [Required by d4n1elchen] √
 0. [Tenhow.debian-chroot.dsm6.[1/2].rtd1296](https://www.dropbox.com/s/6oc6ioc2c7abqti/tenhow.debian-chroot.dsm6.%5B1%3A2%5D.rtd1296.zip?dl=0) [as DS418] [Required by gypittmann] [!Not Tested Yet!] 
