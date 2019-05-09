@@ -76,7 +76,8 @@ If this repository helped, please give it a star, indicating this repository is 
 Happy hacking! 
 
 ## References
-0. [What_kind_of_CPU_does_my_NAS_have](https://www.synology.com/zh-tw/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have)
+0. [What_kind_of_CPU platform_does your_synology NAS have](https://www.synology.com/en-global/knowledgebase/DSM/tutorial/Compatibility_Peripherals/What_kind_of_CPU_does_my_NAS_have)
+
 
 
 ## Use With UPS
