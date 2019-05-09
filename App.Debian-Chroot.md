@@ -78,3 +78,8 @@ Happy hacking!
 ## References
 0. [What_kind_of_CPU_does_my_NAS_have](https://www.synology.com/zh-tw/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have)
 
+
+## Use With UPS
+[autoac](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/scripts/autoac) is a app for let synology or other computers poweroff when ac power failure. It a script for using with none communicated ups.
+
+
