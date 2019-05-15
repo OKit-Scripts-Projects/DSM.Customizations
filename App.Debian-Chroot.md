@@ -85,7 +85,9 @@ Happy hacking!
 
 
 ## Fish Shell
-apt install fish
-and then exit bash 
-chroot "/volume1/@appstore/debian-chroot/var/chroottarget" "/usr/bin/fish"
+`apt install fish`
+
+and then `exit` bash
+
+`chroot "/volume1/@appstore/debian-chroot/var/chroottarget" "/usr/bin/fish"`
 
