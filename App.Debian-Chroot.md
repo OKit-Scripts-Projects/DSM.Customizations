@@ -84,3 +84,8 @@ Happy hacking!
 [autoac](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/scripts/autoac) is a app for let synology or other computers poweroff when ac power failure. It a script for using with none communicated ups.
 
 
+## Fish Shell
+apt install fish
+and then exit bash 
+chroot "/volume1/@appstore/debian-chroot/var/chroottarget" "/usr/bin/fish"
+
