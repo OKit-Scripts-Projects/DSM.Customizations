@@ -91,3 +91,17 @@ and then `exit` bash
 
 `chroot "/volume1/@appstore/debian-chroot/var/chroottarget" "/usr/bin/fish"`
 
+## Mount Volumes
+
+`vim /var/packages/debian-chroot/scripts/start-stop-status`
+
+go to `# Make sure we don't mount twice `
+
+`grep -q "${CHROOTTARGET}/volume1 " /volume1 || mount -o bind /volume1 ${CHROOTTARGET}/volume1`
+`grep -q "${CHROOTTARGET}/volume2 " /volume1 || mount -o bind /volume1 ${CHROOTTARGET}/volume2`
+
+and go to `# Unmount `
+
+`umount ${CHROOTTARGET}/volume1`
+`umount ${CHROOTTARGET}/volume2`
+
