@@ -108,4 +108,10 @@ umount ${CHROOTTARGET}/volume1
 umount ${CHROOTTARGET}/volume2
 ...
 ```
+then restart the chroot program
+```
+/var/packages/debian-chroot/scripts/start-stop-status stop
+/var/packages/debian-chroot/scripts/start-stop-status start
+```
 
+enjoy.
