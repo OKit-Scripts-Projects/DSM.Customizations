@@ -98,12 +98,14 @@ and then `exit` bash
 go to `# Make sure we don't mount twice `
 ```
 grep -q "${CHROOTTARGET}/volume1 " /volume1 || mount -o bind /volume1 ${CHROOTTARGET}/volume1
-grep -q "${CHROOTTARGET}/volume2 " /volume1 || mount -o bind /volume1 ${CHROOTTARGET}/volume2
+grep -q "${CHROOTTARGET}/volume2 " /volume2 || mount -o bind /volume2 ${CHROOTTARGET}/volume2
+...
 ```
 
 and go to `# Unmount `
 ```
 umount ${CHROOTTARGET}/volume1
 umount ${CHROOTTARGET}/volume2
+...
 ```
 
