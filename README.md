@@ -14,3 +14,8 @@ This repository is for logging and discussing how to customize DSM6.[1/2] with y
 
 ## FileSystem
 0. [Use `xfs` instead of `ext4` or `btrfs`](https://github.com/OKit-Scripts-Projects/DSM.Customizations/blob/master/FileSystem.xfs.md#Brief)
+
+
+As I don't use Synology server for a long time, this repo will be freezed for a long time.
+Sorry for the inconvenience.
+See you next time.
